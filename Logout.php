@@ -18,7 +18,7 @@ if (isset($_SESSION["user"])) {
         $action = "Logout";
 
         // Insert into auditLogs
-        $logSql = "INSERT INTO auditLogs (userId, action) VALUES (?, ?)";
+        $logSql = "INSERT INTO auditlogs (userId, action) VALUES (?, ?)";
         $stmt = mysqli_prepare($conn, $logSql);
         mysqli_stmt_bind_param($stmt, "is", $userId, $action);
         mysqli_stmt_execute($stmt);

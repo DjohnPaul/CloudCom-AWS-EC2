@@ -15,10 +15,10 @@ if (isset($_SESSION["user"])) {
 }
 // Fetch transaction history
 $auditQuery = $conn->prepare("
-    SELECT auditLogs.userId, users.email, auditLogs.action, auditLogs.timestamp
-    FROM auditLogs 
+    SELECT auditlogs.userId, users.email, auditlogs.action, auditlogs.timestamp
+    FROM auditlogs 
     JOIN users ON auditLogs.userId = users.id
-    ORDER BY auditLogs.Id DESC
+    ORDER BY auditlogs.Id DESC
 ");
 $auditQuery->execute();
 $auditQuery->store_result();

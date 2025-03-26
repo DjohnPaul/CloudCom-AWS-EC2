@@ -70,7 +70,7 @@ if (isset($_SESSION["user"])) {
                                     // Insert login action into auditLogs
                                     $userId = $user["id"]; // Get user ID from database
                                     $action = "Login";
-                                    $logSql = "INSERT INTO auditLogs (userId, action) VALUES (?, ?)";
+                                    $logSql = "INSERT INTO auditlogs (userId, action) VALUES (?, ?)";
                                     $stmt = mysqli_prepare($conn, $logSql);
                                     mysqli_stmt_bind_param($stmt, "is", $userId, $action);
                                     mysqli_stmt_execute($stmt);
