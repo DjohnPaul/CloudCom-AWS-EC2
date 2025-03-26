@@ -1,0 +1,79 @@
+h2 {
+    color: #333;
+}
+.receipt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+.receipt {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px 0px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th, td {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: thin;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.td-foodName,
+.td-foodPrice,
+.td-foodQuantity{
+    font-weight:300;
+}
+
+.td-foodPrice{
+    color: black;
+}
+
+thead {
+    background-color: #003b4d;
+    color: white;
+}
+
+.total-container {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.back-btn {
+    background-color: #0b771d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    transition: background-color 0.3s;
+}
+.back-btn:hover {
+    background-color: #045311;
+}
+
+.confirm-orders-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}

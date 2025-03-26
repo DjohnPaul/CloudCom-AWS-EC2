@@ -1,0 +1,56 @@
+/* 
+    linked styles/header.css,
+    linked styles/login.css 
+*/
+
+.signup-button{
+    background-color: #0b771d;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.signup-account-text{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.singup-email-input,
+.singup-password-input,
+.confirm-password-input{
+    display: block;
+    width: 40%;
+    margin: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.confirm-password-input{
+    margin-bottom: 10px;
+}
+
+.have-account-text{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: rgb(24, 119, 242);
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+

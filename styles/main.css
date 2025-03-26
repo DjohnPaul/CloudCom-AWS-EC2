@@ -1,0 +1,142 @@
+.category-grid {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.category-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 14px;
+    font-weight: bold;
+    width: 125px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.category-btn.active {
+    background-color: #006b8f;
+    color: white;
+    border: 2px solid #006b8f;
+}
+
+.category-btn:hover{
+    background-color: rgb(199, 199, 199);
+    color: black;
+}
+
+/*
+    Category Logo
+*/
+.category-logo-img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+    .food-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 801px) and (min-width: 1349px) {
+    .food-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1350px) {
+    .food-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.food-item {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+.food-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*
+    Food Grid Design
+*/
+.food-item-name{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.food-item-description{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: thin;
+    color: rgb(175, 174, 174);
+    margin-bottom: 10px;
+}
+.food-item-price{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #016f91;
+    margin-bottom: 30px;
+}
+
+.food-quantity{
+    margin-right: 20px;
+    color: rgb(33, 33, 33);
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(213, 217, 217);
+    border-radius: 8px;
+    padding: 3px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+.add-to-order-btn{
+    background-color: #016f91;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 50px;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+}
+.add-to-order-btn:hover{
+    background-color: #003b4d;
+    color: white;
+}
+
+

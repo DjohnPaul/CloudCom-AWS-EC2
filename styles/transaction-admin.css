@@ -1,0 +1,68 @@
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.history-admin-container {
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.history-admin {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.td-userId,
+.td-email,
+.td-foodId,
+.td-foodName,
+.td-foodPrice,
+.td-foodCategory,
+.td-quantity,
+.td-transactionDate
+{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.td-userId,
+.td-email,
+.td-foodName,
+.td-foodPrice,
+.td-quantity{
+    font-weight: 500;
+}
+
+.td-foodPrice{
+    color: #016f91;
+}
+
+thead {
+    background-color: #003b4d;
+    color: white;
+}
+.no-transactions {
+    color: gray;
+    font-size: 18px;
+    padding: 20px;
+}

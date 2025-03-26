@@ -1,0 +1,69 @@
+.header{
+    background-color: #003b4d;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.header-left-section{
+    margin-left: 100px;
+}
+.brand-button{
+    background-color: #003b4d;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.brand-button:hover {
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+.brand-logo{
+    width: 300px;
+}
+
+.header-right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 100px;
+    position: absolute;
+    right: 30px;
+}
+
+.home-button,
+.signup-button,
+.login-button,
+.myorders-button, 
+.transaction-button,
+.logout-button{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(212, 212, 212);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover,
+.signup-button:hover,
+.login-button:hover,
+.transaction-button:hover,
+.myorders-button:hover,
+.logout-button:hover{
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+}

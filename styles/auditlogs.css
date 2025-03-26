@@ -1,0 +1,56 @@
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.auditlogs-container {
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.auditlogs {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.td-user-id,
+.td-user-email,
+.td-user-timestamp
+{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.td-user-id,
+.td-user-email{
+    font-weight: 500;
+}
+
+thead {
+    background-color: #003b4d;
+    color: white;
+}
+.no-transactions {
+    color: gray;
+    font-size: 18px;
+    padding: 20px;
+}
