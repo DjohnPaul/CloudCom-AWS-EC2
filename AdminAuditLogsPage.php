@@ -17,7 +17,7 @@ if (isset($_SESSION["user"])) {
 $auditQuery = $conn->prepare("
     SELECT auditlogs.userId, users.email, auditlogs.action, auditlogs.timestamp
     FROM auditlogs 
-    JOIN users ON auditLogs.userId = users.id
+    JOIN users ON auditlogs.userId = users.id
     ORDER BY auditlogs.Id DESC
 ");
 $auditQuery->execute();
